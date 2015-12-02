@@ -1,0 +1,16 @@
+{
+    "name": "bugisoft/app_name2015",
+    "description": "Application created by Bugisoft team for \"Nuit de l'info 2015\" event",
+    "require": {
+        "php": ">=5.4.0",
+        "twig/twig": "~1.0",
+        "filp/whoops": "~1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "remi.r",
+            "email": "tekreme73@gmail.com"
+        }
+    ]
+}

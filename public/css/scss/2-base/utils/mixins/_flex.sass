@@ -1,0 +1,74 @@
+@mixin flex($value)
+	-webkit-box-flex: $value			/* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: $value				/* OLD - Firefox 19- */
+	-webkit-flex: $value					/* Chrome */
+	-ms-flex: $value						/* IE 10 */
+	flex: $value							/* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+@mixin order($value)
+	-webkit-box-ordinal-group: $value		/* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-ordinal-group: $value			/* OLD - Firefox 19- */
+	-ms-flex-order: $value						/* TWEENER - IE 10 */
+	-webkit-order: $value						/* NEW - Chrome */
+	order: $value									/* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+@mixin display-flex
+	display: -webkit-box			/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box				/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox			/* TWEENER - IE 10 */
+	display: -webkit-flex			/* NEW - Chrome */
+	display: flex						/* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+@mixin display-inline-flex
+	display: -webkit-box			/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box				/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox			/* TWEENER - IE 10 */
+	display: -webkit-inline-flex	/* NEW - Chrome */
+	display: -inlineflex				/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	
+@mixin flex-direction($value)
+	-webkit-flex-direction: $value	/* Chrome 21.0, Safari 6.1+ */
+	-moz-flex-direction: $value		/* Firefox 18.0 */
+	flex-direction: $value				/* Other */
+
+@mixin flex-flow($value)
+	-webkit-flex-flow: $value			/* Chrome 21.0, Safari 6.1+ */
+	-moz-flex-flow: $value				/* Firefox 18.0 */
+	flex-flow: $value						/* Other */
+
+@mixin flex-wrap($value)
+	-webkit-flex-wrap: $value		/* Chrome 21.0, Safari 6.1+ */
+	-moz-flex-wrap: $value		/* Firefox 18.0 */
+	flex-wrap: $value				/* Other */
+
+@mixin flex-grow($value)
+	-webkit-flex-grow: $value		/* Chrome 21.0, Safari 6.1+ */
+	-moz-flex-grow: $value		/* Firefox 18.0 */
+	flex-grow: $value				/* Other */
+
+@mixin flex-shrink($value)
+	-webkit-flex-shrink: $value	/* Chrome 21.0, Safari 6.1+ */
+	-moz-flex-shrink: $value		/* Firefox 18.0 */
+	flex-shrink: $value				/* Other */
+
+@mixin flex-basis($value)
+	-webkit-flex-basis: $value	/* Chrome 21.0, Safari 6.1+ */
+	-moz-flex-basis: $value		/* Firefox 18.0 */
+	flex-basis: $value				/* Other */
+
+@mixin align-items($value)
+	-webkit-align-items: $value		/* Safari 7.0+ */
+	align-items: $value					/* Other */
+
+@mixin align-content($value)
+	-webkit-align-content: $value 	/* Safari 7.0+ */
+	align-content: $value				/* Other */
+
+@mixin align-self($value)
+	-webkit-align-self: $value			/* Safari 7.0+ */
+	align-self: $value					/* Other */
+
+@mixin justify-content($value)
+	-webkit-justify-content: $value		/* Safari 6.1+, Chrome 21.0 */
+	-moz-justify-content: $value			/* Firefox 18.0 */
+	justify-content: $value					/* Other */

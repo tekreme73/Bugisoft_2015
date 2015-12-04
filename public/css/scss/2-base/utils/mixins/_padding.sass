@@ -1,0 +1,51 @@
+@mixin padding-start($value)
+	-moz-padding-start: $value
+	-khtml-padding-start: $value
+	-webkit-padding-start: $value
+	-o-padding-start: $value
+	padding-left: $value
+
+@mixin padding-end($value)
+	-moz-padding-end: $value
+	-khtml-padding-end: $value
+	-webkit-padding-end: $value
+	-o-padding-end: $value
+	padding-right: $value
+
+@mixin padding-before($value)
+	-moz-padding-before: $value
+	-khtml-padding-before: $value
+	-webkit-padding-before: $value
+	-o-padding-before: $value
+	padding-top: $value
+
+@mixin padding-after($value)
+	-moz-padding-after: $value
+	-khtml-padding-after: $value
+	-webkit-padding-after: $value
+	-o-padding-after: $value
+	padding-bottom: $value
+
+@mixin padding($v1, $v2:"", $v3:"", $v4:"")
+	@if $v2 == ""
+		@include padding-start($v1)
+		@include padding-end($v1)
+		@include padding-before($v1)
+		@include padding-after($v1)
+	@else
+		@if $v3 == ""
+			@include padding-start($v2)
+			@include padding-end($v2)
+			@include padding-before($v1)
+			@include padding-after($v1)
+		@else
+			@if $v4 == ""
+				@include padding-start($v2)
+				@include padding-end($v2)
+				@include padding-before($v1)
+				@include padding-after($v3)
+			@else
+				@include padding-start($v4)
+				@include padding-end($v2)
+				@include padding-before($v1)
+				@include padding-after($v3)

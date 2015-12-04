@@ -1,0 +1,31 @@
+{% extends "layout.twig" %}
+
+{% block title %}
+Statistiques
+{% endblock %}
+
+{% block main %}
+<div class="table">
+    {% for name, array in datas %}
+    <div class="table-resource">
+        <div class="table-resource--title">{{ name }}</div>
+        <div class="table-resource--categories">
+            {% for category in array.0|keys %}
+            <div class="table-resource--category">{{ category }}</div>
+            {% endfor %}
+        </div>
+        <div class="table-resource--values">
+        {% for category, item in array %}
+            <div class="table-resource--row">
+                {% for value in item %}
+                    <div class="table-resource--value">
+                        {{ value }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

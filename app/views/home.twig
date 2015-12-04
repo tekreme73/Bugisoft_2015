@@ -1,0 +1,51 @@
+{% extends "layout.twig" %}
+
+{% block title %}
+Accueil
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <div class="top">
+        <div>
+            <img src="/assets/image/far_crise.svg" alt="Nom de l'application"></img>
+        </div>
+        <div>
+            <img src="/assets/image/logo/{{ random(['01.svg', '02.svg', '03.svg', '04.svg', '05.svg', '06.svg', '07.svg', '08.svg']) }}" alt="Logo"></img>
+        </div>
+    </div>
+    <div class="banner">
+        <a href="/qcm" class="banner-button">
+            <span>Commencer le questionnaire</span>
+        </a>
+        <a href="/stat/show" class="banner-button">
+            <span>Consulter les statistiques</span>
+        </a>
+    </div>
+    <div class="project">
+        <div class="project-description">
+            <p>Bonjour, nous sommes {{ config['app.team'] }}, une équipe de la nuit de l'Info {{ config['app.year'] }}.</p>
+            <br />
+            <p>Notre belle application, Far Crise, est une application permettant à n'importe qui de référencer les ressources (nourriture, hébergement...) qu'il peut mettre à disposition lors d'une crise.</p>
+            <br />
+            <p>Elle permet aussi à n'importe qui de consulter les ressources qui sont mises à disposition par chacun.</p>
+            <p>Un petit jeu arcade est aussi accessible si vous vous ennuyez !</p>
+            <br />
+            <p>Bonne visite sur notre site.</p>
+        </div>
+        <div class="game">
+            <div class="game-app">
+                <a href="/game" class="game-app--button">
+                    <span>Jouer au jeu</span>
+                </a>
+            </div>
+            <div class="game-description">
+                <p>Salut, c'est moi ! C'est Derrick !</p>
+                <br />
+                <p>Vient essayer notre jeu, il gère le pâté !</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

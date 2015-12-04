@@ -1,0 +1,86 @@
+.project
+    @include display(flex)
+    @include flex-direction(row)
+    
+    @include align-items(center)
+    @include justify-content(stretch)
+    
+    @include margin(15px, 20px, 5px, 20px)
+    
+    max-height: 300px
+    height: 100%
+    
+    @media (max-width: 850px)
+        @include flex-direction(column)
+        max-height: 450px
+    
+    &-description
+        @include flex(1)
+        @include display(flex)
+        @include flex-direction(column)
+        
+        @include align-items(flex-start)
+        @include justify-content(stretch)
+        
+        @include padding(5px, 5px, 5px, 20px)
+        
+        width: 100%
+        height: 100%
+            
+        color: $light-green-l-3
+        background: $light-green-d-4
+        
+        > p:first-child:before
+            @include display(inline)
+            content: '¶ '
+            font-size: 1.4em
+            color: $light-green-l-4
+    
+    .game
+        @include flex(1)
+        
+        @include display(flex)
+        @include flex-direction(column)
+        
+        @include align-items(center)
+        @include justify-content(stretch)
+        
+        width: 100%
+        height: 100%
+    
+        &-app
+            @include flex(1)
+            @include display(flex)
+            @include flex-direction(column)
+            
+            @include align-items(center)
+            @include justify-content(center)
+            
+            width: 100%
+            height: 100%
+            background: $light-green
+            
+            &--button
+                @include button( $light-green-d-2, $light-green-l-1 )
+            
+        &-description
+            @include flex(1)
+            @include display(flex)
+            @include flex-direction(column)
+            
+            @include align-items(flex-start)
+            @include justify-content(stretch)
+        
+            @include padding(5px, 5px, 5px, 20px)
+            
+            width: 100%
+            height: 100%
+            
+            color: $light-green-l-3
+            background: $light-green-d-2
+        
+            > p:first-child:before
+                @include display(inline)
+                content: '¶ '
+                font-size: 1.4em
+                color: $light-green-l-4

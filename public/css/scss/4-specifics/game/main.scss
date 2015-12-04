@@ -1,0 +1,213 @@
+#header {
+   background-color: #6F95D6; 
+}
+
+#section_lab {
+    
+    width : 100%;
+    height: 100%;
+    background-color: $indigo-l-4 ;
+    position:fixed;
+
+    
+}
+
+#titre_lab {
+    
+    width : 40%;
+    height: 10%;
+    margin: 0% 35% -2% 35%;
+    padding:auto;
+    position : relative;
+    top: 0%;
+    right:5%;
+    text-align: center;
+  
+    
+  
+    
+}
+
+#farcrise{
+    width: 100%;
+    height: 100%;
+}
+/*#h1_lab{
+    font-family:$body-font-family;
+    color:white;
+    border-style:solid;
+    text-shadow: 3px 3px black;
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+    font-size:4vw;
+     margin:auto;
+     padding:auto;
+     background-color: $indigo-l-1;
+     text-align:center;
+     margin-right:25%;
+     margin-left:25%;
+     margin-top:1%;
+     border-radius:10px;
+    
+}*/
+#main_lab {
+    
+    width : 50%;
+    height: 75%;
+    border: solid ;
+    border-radius:5px;
+    background-color: $indigo-l-1;
+    margin: 0% 25% 0% 25% ;
+    padding:auto;
+    position:relative;
+    top:5%;
+    border: 10px ridge white;
+        
+ 
+}
+#rules_lab {
+    
+    width : 5%;
+    height: 23%;
+    background-color:#C19529;
+    position:relative;
+      float:right;
+    top:5%;
+    border: solid;
+    transition:all 0.3s ease;
+    -webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+    color: white;
+
+
+    
+}
+
+#rules_lab:hover {
+    
+    width : 20%;
+    height: 25%;
+    background-color:#C16E22;
+    float:right;
+
+    position:relative;
+    top:5%;
+    border: solid;
+    -webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 50px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+    
+}
+
+/*#object_lab {
+    
+    width : 300px;
+    height: 400px;
+    background-color:#C16E22;
+    position: relative;
+    left: 50px;
+    bottom: 800px;
+    border: solid;
+    border-radius:5px;
+    
+}*/
+#deplacement_lab {
+    
+    font-family:$body-font-family;
+    width : 15%;
+    height: 18%;
+    background-color:#C19529;
+    position:relative;
+    bottom: 50%;
+    left: 5%;
+    border: solid;
+    border-radius:5px;
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    
+}
+
+#p1{
+    font-family:$body-font-family;
+    font-weight:bold;
+    margin-left:3%;
+}
+
+#img_background {
+    margin: auto;
+    padding:auto;
+   display:block;
+    width: 70%;
+    height: 90%;
+    
+}
+
+#h2 {
+    
+   -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+    position:relative;
+    top:41%;
+    font-size:2vw;
+    
+
+    
+}
+
+.popUP{
+    position : absolute;
+
+}
+.good{
+	
+	background-image: url("assets/image/logo/Mascotte - heureux-01.png");
+	
+}
+.bad{
+	background-image: url("assets/image/logo/Mascotte - pascontent-01.png");
+}
+
+
+.gameOver{
+    position : absolute;
+    border : solid;
+    border-radius : 5px;
+    background-color : black;
+    color : white;
+    margin-right:25%;
+    margin-left:25%;
+    margin-top:3%;
+    width:50%;
+    height:10%;
+}
+
+#pobel {
+    
+    font-size:3vw;
+}
+
+#point {
+    
+    font-size:2vw;
+    
+}
+
+

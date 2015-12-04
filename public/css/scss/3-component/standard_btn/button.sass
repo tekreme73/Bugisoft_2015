@@ -1,0 +1,26 @@
+@mixin button( $bg_color_hover: darkblue, $bg_color : none )
+
+    @include display(inline-block)
+    @include padding(10px, 20px)
+    
+    border-radius: 10px
+    border: 2px solid #ffffff
+    width: 320px
+    
+    text-decoration: none
+    
+    background: $bg_color
+    
+    &:active
+        background: $bg_color_hover
+    &:hover
+        background: $bg_color_hover
+    
+    > span
+        @include display(block)
+        color: white
+        width: 100%
+        font-size: 1em
+        font-weight: 300
+        text-transform: uppercase
+        text-align: center

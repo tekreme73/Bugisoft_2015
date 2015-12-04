@@ -1,0 +1,72 @@
+{% extends "layout.twig" %}
+
+{% block title %}
+Questionnaire
+{% endblock %}
+
+{% block main %}
+<form class="formulaire" action="{{ urlFor('qcm.post') }}" method="post">
+    
+    <!-- User -->
+    <div class="resource">
+        <h3 class="resource-title">User</h3>
+        <div class="resource-fields">
+            {% if errors['user_nom'] is defined %}
+                <span>
+                    {{ errors['user_nom'][0] }}
+                </span>
+            {% endif %}
+            <input class="formulaire-input resource-fields--input" type="email" name="user_mail" placeholder="e-mail">
+            <input class="formulaire-input resource-fields--input" type="text" name="user_nom" placeholder="Nom">
+            <input class="formulaire-input resource-fields--input" type="text" name="user_prenom" placeholder="Prenom">
+            <input class="formulaire-input resource-fields--input" type="text" name="user_telephone" placeholder="N° de téléphone">
+            <select class="formulaire-select resource-fields--select" name="user_grp_sanguin">
+                {% for groupe in groupes %}
+                    <option class="formulaire-option resource-fields--option" value="{{ groupe.id }}">{{ groupe.groupe }}</option> 
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    
+    <!-- Aliments -->
+    <div class="resource">
+        <h3 class="resource-title">Aliments</h3>
+        <div class="resource-fields">
+            <input class="formulaire-input resource-fields--input" type="text" name="aliment_nom_alim[]" placeholder="Nom">
+            <input class="formulaire-input resource-fields--input" type="text" name="aliment_qte[]" placeholder="Quantité">
+        </div>
+    </div>
+
+    
+    <!-- EPI -->
+    <div class="resource">
+        <h3 class="resource-title"><abbr title="Equipement de Protection Individuel">EPI</abbr></h3>
+        <div class="resource-fields">
+            <input class="formulaire-input resource-fields--input" type="text" name="epi_nom[]" placeholder="Nom">
+            <input class="formulaire-input resource-fields--input" type="text" name="epi_qte[]" placeholder="Quantité">
+        </div>
+    </div>
+
+    
+    <!-- Soins -->
+    <div class="resource">
+        <h3 class="resource-title">Soins</h3>
+        <div class="resource-fields">
+            <input class="formulaire-input resource-fields--input" type="text" name="soins_type[]" placeholder="Type">
+        </div>
+    </diV>
+
+    
+    <!-- Abri -->
+    <div class="resource">
+        <h3 class="resource-title">Abri</h3>
+            <input class="formulaire-input" type="text" name="abri_adresse[]" placeholder="Adresse">
+            <input class="formulaire-input" type="text" name="abri_nb_place[]" placeholder="Nombre de places">
+        </div>
+    </diV>
+
+    
+    <input class="formulaire-input" type="hidden" name="{{ csrf_key }}" value="{{ csrf_token }}">
+    <input class="formulaire-input" type="submit" value="Valider">
+</form>
+{% endblock %}

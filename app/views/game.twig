@@ -1,0 +1,72 @@
+{#<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+   <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./css/style.scss"></script>
+ 
+</head>
+<body>
+    <header id="titre_labyrinthe">
+      
+    </header>
+    <section id="id_labyrinthe">
+      
+    </section>
+
+  <footer id="footer">
+    
+  </footer>
+</body>
+</html>#}
+
+{% extends "layout.twig" %}
+
+{% block title %}
+Jeu d'arcade
+{% endblock %}
+
+{% block main %}
+
+<section id="section_lab">
+  
+  <div id="titre_lab">
+     
+     {#<h1 id="h1_lab">FAR CRISE GAME</h1>#}
+     <img src="../../../assets/image/far_crise.svg" id="farcrise"/>
+  </div>
+  
+  
+  <div id="rules_lab">
+     <h2 id="h2">
+      Règles!
+    </h2>
+    <p id="p1">
+      </br>C'est facile comme tout! </br></br> Il te suffit juste de toucher le plus de rennes bleus possible!</br></br>
+      Fait attention, il y a de méchants rennes rouges qui sont venus t'embêter... alors ne te trompe pas!</br></br>
+      Bonne chance à toi!
+    </p>
+  </div>
+  
+  <div id="main_lab">
+   
+    <img id="img_background" src="../../../assets/image/logo/Mascotte - dealwithit-01.png" height="900" width="900">
+  </div>
+    
+  <div id="object_lab">
+     
+  </div>
+  <div id="deplacement_lab">
+   <h2 id="point">Points </h2> 
+   <span id="pobel">0</span>
+  </div>
+</section>
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/game.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+{% endblock %}

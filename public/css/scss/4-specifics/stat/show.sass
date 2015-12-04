@@ -1,0 +1,77 @@
+.table
+    @include display(flex)
+    @include flex-direction(column)
+    @include justify-content(center)
+    @include align-items(center)
+    
+    width: 100%
+    
+    color: $indigo-l-4
+
+    &-resource
+    
+        @include display(flex)
+        @include flex-direction(column)
+        
+        @include margin(5px, 0)
+        
+        max-width: 900px
+        width: 100%
+        text-align: center
+        
+        border: $indigo-l-3 solid 1px
+    
+        &--title
+            @include padding(10px, 5px)
+            font-size: 1.2em
+            font-weight: bold
+            
+            border-bottom: $indigo-l-3 solid 1px
+            border-right: $indigo-l-3 solid 1px
+            border-left: $indigo-l-3 solid 1px
+        
+            background: $indigo-d-1
+    
+    
+        &--categories
+            @include display(flex)
+            @include flex-direction(row)
+            @include justify-content(center)
+            @include align-items(stretch)
+            
+            width: 100%
+            
+            background: $indigo-d-1
+            
+        &--category
+            @include flex(1)
+            @include padding(10px)
+            
+            border-bottom: $indigo-l-3 solid 1px
+            border-left: $indigo-l-3 solid 1px
+            
+            font-weight: bold
+        
+        &--values
+            @include display(flex)
+            @include flex-direction(column)
+            @include justify-content(center)
+            @include align-items(flex-start)
+            
+            width: 100%
+        
+        &--row
+            @include display(flex)
+            @include flex-direction(row)
+            @include justify-content(center)
+            @include align-items(center)
+            
+            width: 100%
+            
+            background: $indigo-l-1
+        
+        &--value
+            @include flex(1)
+            @include padding(10px, 0, 5px, 0)
+            
+            border-left: $indigo-l-3 solid 1px

@@ -1,0 +1,13 @@
+.banner
+    
+    @include display(flex)
+    @include align-items(center)
+    @include justify-content(center)
+    
+    width: 100%
+    height: 100px
+    background-color: $indigo-d-1
+    
+    &-button
+        @include button( $indigo-l-1 )
+        @include margin( 5px )

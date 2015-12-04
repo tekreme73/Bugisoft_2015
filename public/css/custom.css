@@ -1,0 +1,1125 @@
+@charset "UTF-8";
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+ *
+ *			VENDOR INDEX
+ *
+ */
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+ *
+ *			BASE INDEX
+ *
+ */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #c5cae9;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #21a1e1; }
+
+p {
+  margin: 0; }
+
+.pagination {
+  display: inline-block;
+  -moz-padding-start: 0;
+  -khtml-padding-start: 0;
+  -webkit-padding-start: 0;
+  -o-padding-start: 0;
+  padding-left: 0;
+  -moz-margin-start: 0;
+  -khtml-margin-start: 0;
+  -webkit-margin-start: 0;
+  -o-margin-start: 0;
+  margin-left: 0;
+  -moz-margin-end: 0;
+  -khtml-margin-end: 0;
+  -webkit-margin-end: 0;
+  -o-margin-end: 0;
+  margin-right: 0;
+  -moz-margin-before: 20px;
+  -khtml-margin-before: 20px;
+  -webkit-margin-before: 20px;
+  -o-margin-before: 20px;
+  margin-top: 20px;
+  -moz-margin-after: 20px;
+  -khtml-margin-after: 20px;
+  -webkit-margin-after: 20px;
+  -o-margin-after: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px; }
+  @media (max-width: 620px) {
+    .pagination {
+      -moz-margin-start: 0;
+      -khtml-margin-start: 0;
+      -webkit-margin-start: 0;
+      -o-margin-start: 0;
+      margin-left: 0;
+      -moz-margin-end: 0;
+      -khtml-margin-end: 0;
+      -webkit-margin-end: 0;
+      -o-margin-end: 0;
+      margin-right: 0;
+      -moz-margin-before: 10px;
+      -khtml-margin-before: 10px;
+      -webkit-margin-before: 10px;
+      -o-margin-before: 10px;
+      margin-top: 10px;
+      -moz-margin-after: 5px;
+      -khtml-margin-after: 5px;
+      -webkit-margin-after: 5px;
+      -o-margin-after: 5px;
+      margin-bottom: 5px; } }
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7; }
+  .pagination > li {
+    display: inline; }
+    .pagination > li > a,
+    .pagination > li > span {
+      position: relative;
+      float: left;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      color: #337ab7;
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid #ddd; }
+    .pagination > li > a:hover,
+    .pagination > li > span:hover,
+    .pagination > li > a:focus,
+    .pagination > li > span:focus {
+      color: #23527c;
+      background-color: #eee;
+      border-color: #ddd; }
+    .pagination > li:first-child > a,
+    .pagination > li:first-child > span {
+      margin-left: 0;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px; }
+    .pagination > li:last-child > a,
+    .pagination > li:last-child > span {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px; }
+  .pagination a {
+    text-decoration: none; }
+
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+ *
+ *			SPECIFICS INDEX
+ *
+ */
+/*	*	*	*
+ *				MAIN
+ */
+#header {
+  background-color: #6F95D6; }
+
+#section_lab {
+  width: 100%;
+  height: 100%;
+  background-color: #c5cae9;
+  position: fixed; }
+
+#titre_lab {
+  width: 40%;
+  height: 10%;
+  margin: 0% 35% -2% 35%;
+  padding: auto;
+  position: relative;
+  top: 0%;
+  right: 5%;
+  text-align: center; }
+
+#farcrise {
+  width: 100%;
+  height: 100%; }
+
+/*#h1_lab{
+    font-family:$body-font-family;
+    color:white;
+    border-style:solid;
+    text-shadow: 3px 3px black;
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+    font-size:4vw;
+     margin:auto;
+     padding:auto;
+     background-color: $indigo-l-1;
+     text-align:center;
+     margin-right:25%;
+     margin-left:25%;
+     margin-top:1%;
+     border-radius:10px;
+    
+}*/
+#main_lab {
+  width: 50%;
+  height: 75%;
+  border: solid;
+  border-radius: 5px;
+  background-color: #5c6bc0;
+  margin: 0% 25% 0% 25%;
+  padding: auto;
+  position: relative;
+  top: 5%;
+  border: 10px ridge white; }
+
+#rules_lab {
+  width: 5%;
+  height: 23%;
+  background-color: #C19529;
+  position: relative;
+  float: right;
+  top: 5%;
+  border: solid;
+  transition: all 0.3s ease;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  color: white; }
+
+#rules_lab:hover {
+  width: 20%;
+  height: 25%;
+  background-color: #C16E22;
+  float: right;
+  position: relative;
+  top: 5%;
+  border: solid;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75); }
+
+/*#object_lab {
+    
+    width : 300px;
+    height: 400px;
+    background-color:#C16E22;
+    position: relative;
+    left: 50px;
+    bottom: 800px;
+    border: solid;
+    border-radius:5px;
+    
+}*/
+#deplacement_lab {
+  font-family: "Lato", sans-serif;
+  width: 15%;
+  height: 18%;
+  background-color: #C19529;
+  position: relative;
+  bottom: 50%;
+  left: 5%;
+  border: solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: center;
+  font-weight: bold; }
+
+#p1 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-left: 3%; }
+
+#img_background {
+  margin: auto;
+  padding: auto;
+  display: block;
+  width: 70%;
+  height: 90%; }
+
+#h2 {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  position: relative;
+  top: 41%;
+  font-size: 2vw; }
+
+.popUP {
+  position: absolute; }
+
+.good {
+  background-image: url("assets/image/logo/Mascotte - heureux-01.png"); }
+
+.bad {
+  background-image: url("assets/image/logo/Mascotte - pascontent-01.png"); }
+
+.gameOver {
+  position: absolute;
+  border: solid;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 3%;
+  width: 50%;
+  height: 10%; }
+
+#pobel {
+  font-size: 3vw; }
+
+#point {
+  font-size: 2vw; }
+
+.formulaire {
+  display: block;
+  -moz-padding-start: 5px;
+  -khtml-padding-start: 5px;
+  -webkit-padding-start: 5px;
+  -o-padding-start: 5px;
+  padding-left: 5px;
+  -moz-padding-end: 5px;
+  -khtml-padding-end: 5px;
+  -webkit-padding-end: 5px;
+  -o-padding-end: 5px;
+  padding-right: 5px;
+  -moz-padding-before: 5px;
+  -khtml-padding-before: 5px;
+  -webkit-padding-before: 5px;
+  -o-padding-before: 5px;
+  padding-top: 5px;
+  -moz-padding-after: 5px;
+  -khtml-padding-after: 5px;
+  -webkit-padding-after: 5px;
+  -o-padding-after: 5px;
+  padding-bottom: 5px; }
+  .formulaire-input {
+    width: 100%;
+    color: black; }
+
+.container {
+  height: 1100px; }
+
+.top {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  height: 500px; }
+
+.banner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  width: 100%;
+  height: 100px;
+  background-color: #3949ab; }
+  .banner-button {
+    display: inline-block;
+    -moz-padding-start: 20px;
+    -khtml-padding-start: 20px;
+    -webkit-padding-start: 20px;
+    -o-padding-start: 20px;
+    padding-left: 20px;
+    -moz-padding-end: 20px;
+    -khtml-padding-end: 20px;
+    -webkit-padding-end: 20px;
+    -o-padding-end: 20px;
+    padding-right: 20px;
+    -moz-padding-before: 10px;
+    -khtml-padding-before: 10px;
+    -webkit-padding-before: 10px;
+    -o-padding-before: 10px;
+    padding-top: 10px;
+    -moz-padding-after: 10px;
+    -khtml-padding-after: 10px;
+    -webkit-padding-after: 10px;
+    -o-padding-after: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    width: 320px;
+    text-decoration: none;
+    background: none;
+    -moz-margin-start: 5px;
+    -khtml-margin-start: 5px;
+    -webkit-margin-start: 5px;
+    -o-margin-start: 5px;
+    margin-left: 5px;
+    -moz-margin-end: 5px;
+    -khtml-margin-end: 5px;
+    -webkit-margin-end: 5px;
+    -o-margin-end: 5px;
+    margin-right: 5px;
+    -moz-margin-before: 5px;
+    -khtml-margin-before: 5px;
+    -webkit-margin-before: 5px;
+    -o-margin-before: 5px;
+    margin-top: 5px;
+    -moz-margin-after: 5px;
+    -khtml-margin-after: 5px;
+    -webkit-margin-after: 5px;
+    -o-margin-after: 5px;
+    margin-bottom: 5px; }
+    .banner-button:active {
+      background: #5c6bc0; }
+    .banner-button:hover {
+      background: #5c6bc0; }
+    .banner-button > span {
+      display: block;
+      color: white;
+      width: 100%;
+      font-size: 1em;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: center; }
+
+.project {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: stretch;
+  -moz-box-pack: stretch;
+  box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -moz-justify-content: stretch;
+  -ms-justify-content: stretch;
+  -o-justify-content: stretch;
+  justify-content: stretch;
+  -ms-flex-pack: stretch;
+  -moz-margin-start: 20px;
+  -khtml-margin-start: 20px;
+  -webkit-margin-start: 20px;
+  -o-margin-start: 20px;
+  margin-left: 20px;
+  -moz-margin-end: 20px;
+  -khtml-margin-end: 20px;
+  -webkit-margin-end: 20px;
+  -o-margin-end: 20px;
+  margin-right: 20px;
+  -moz-margin-before: 15px;
+  -khtml-margin-before: 15px;
+  -webkit-margin-before: 15px;
+  -o-margin-before: 15px;
+  margin-top: 15px;
+  -moz-margin-after: 5px;
+  -khtml-margin-after: 5px;
+  -webkit-margin-after: 5px;
+  -o-margin-after: 5px;
+  margin-bottom: 5px;
+  max-height: 300px;
+  height: 100%; }
+  @media (max-width: 850px) {
+    .project {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      max-height: 450px; } }
+  .project-description {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    -o-align-items: flex-start;
+    align-items: flex-start;
+    -ms-flex-align: start;
+    -webkit-box-pack: stretch;
+    -moz-box-pack: stretch;
+    box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -moz-justify-content: stretch;
+    -ms-justify-content: stretch;
+    -o-justify-content: stretch;
+    justify-content: stretch;
+    -ms-flex-pack: stretch;
+    -moz-padding-start: 20px;
+    -khtml-padding-start: 20px;
+    -webkit-padding-start: 20px;
+    -o-padding-start: 20px;
+    padding-left: 20px;
+    -moz-padding-end: 5px;
+    -khtml-padding-end: 5px;
+    -webkit-padding-end: 5px;
+    -o-padding-end: 5px;
+    padding-right: 5px;
+    -moz-padding-before: 5px;
+    -khtml-padding-before: 5px;
+    -webkit-padding-before: 5px;
+    -o-padding-before: 5px;
+    padding-top: 5px;
+    -moz-padding-after: 5px;
+    -khtml-padding-after: 5px;
+    -webkit-padding-after: 5px;
+    -o-padding-after: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    color: #c5e1a5;
+    background: #33691e; }
+    .project-description > p:first-child:before {
+      display: inline;
+      content: "¶ ";
+      font-size: 1.4em;
+      color: #dcedc8; }
+  .project .game {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: stretch;
+    -moz-box-pack: stretch;
+    box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -moz-justify-content: stretch;
+    -ms-justify-content: stretch;
+    -o-justify-content: stretch;
+    justify-content: stretch;
+    -ms-flex-pack: stretch;
+    width: 100%;
+    height: 100%; }
+    .project .game-app {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      width: 100%;
+      height: 100%;
+      background: #8bc34a; }
+      .project .game-app--button {
+        display: inline-block;
+        -moz-padding-start: 20px;
+        -khtml-padding-start: 20px;
+        -webkit-padding-start: 20px;
+        -o-padding-start: 20px;
+        padding-left: 20px;
+        -moz-padding-end: 20px;
+        -khtml-padding-end: 20px;
+        -webkit-padding-end: 20px;
+        -o-padding-end: 20px;
+        padding-right: 20px;
+        -moz-padding-before: 10px;
+        -khtml-padding-before: 10px;
+        -webkit-padding-before: 10px;
+        -o-padding-before: 10px;
+        padding-top: 10px;
+        -moz-padding-after: 10px;
+        -khtml-padding-after: 10px;
+        -webkit-padding-after: 10px;
+        -o-padding-after: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid #ffffff;
+        width: 320px;
+        text-decoration: none;
+        background: #9ccc65; }
+        .project .game-app--button:active {
+          background: #689f38; }
+        .project .game-app--button:hover {
+          background: #689f38; }
+        .project .game-app--button > span {
+          display: block;
+          color: white;
+          width: 100%;
+          font-size: 1em;
+          font-weight: 300;
+          text-transform: uppercase;
+          text-align: center; }
+    .project .game-description {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      -webkit-box-align: start;
+      -moz-box-align: start;
+      box-align: start;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      -ms-align-items: flex-start;
+      -o-align-items: flex-start;
+      align-items: flex-start;
+      -ms-flex-align: start;
+      -webkit-box-pack: stretch;
+      -moz-box-pack: stretch;
+      box-pack: stretch;
+      -webkit-justify-content: stretch;
+      -moz-justify-content: stretch;
+      -ms-justify-content: stretch;
+      -o-justify-content: stretch;
+      justify-content: stretch;
+      -ms-flex-pack: stretch;
+      -moz-padding-start: 20px;
+      -khtml-padding-start: 20px;
+      -webkit-padding-start: 20px;
+      -o-padding-start: 20px;
+      padding-left: 20px;
+      -moz-padding-end: 5px;
+      -khtml-padding-end: 5px;
+      -webkit-padding-end: 5px;
+      -o-padding-end: 5px;
+      padding-right: 5px;
+      -moz-padding-before: 5px;
+      -khtml-padding-before: 5px;
+      -webkit-padding-before: 5px;
+      -o-padding-before: 5px;
+      padding-top: 5px;
+      -moz-padding-after: 5px;
+      -khtml-padding-after: 5px;
+      -webkit-padding-after: 5px;
+      -o-padding-after: 5px;
+      padding-bottom: 5px;
+      width: 100%;
+      height: 100%;
+      color: #c5e1a5;
+      background: #689f38; }
+      .project .game-description > p:first-child:before {
+        display: inline;
+        content: "¶ ";
+        font-size: 1.4em;
+        color: #dcedc8; }
+
+header nav {
+  -moz-margin-start: 10px;
+  -khtml-margin-start: 10px;
+  -webkit-margin-start: 10px;
+  -o-margin-start: 10px;
+  margin-left: 10px;
+  -moz-margin-end: 10px;
+  -khtml-margin-end: 10px;
+  -webkit-margin-end: 10px;
+  -o-margin-end: 10px;
+  margin-right: 10px;
+  -moz-margin-before: 10px;
+  -khtml-margin-before: 10px;
+  -webkit-margin-before: 10px;
+  -o-margin-before: 10px;
+  margin-top: 10px;
+  -moz-margin-after: 10px;
+  -khtml-margin-after: 10px;
+  -webkit-margin-after: 10px;
+  -o-margin-after: 10px;
+  margin-bottom: 10px; }
+  header nav > a {
+    display: inline-block;
+    -moz-padding-start: 20px;
+    -khtml-padding-start: 20px;
+    -webkit-padding-start: 20px;
+    -o-padding-start: 20px;
+    padding-left: 20px;
+    -moz-padding-end: 20px;
+    -khtml-padding-end: 20px;
+    -webkit-padding-end: 20px;
+    -o-padding-end: 20px;
+    padding-right: 20px;
+    -moz-padding-before: 10px;
+    -khtml-padding-before: 10px;
+    -webkit-padding-before: 10px;
+    -o-padding-before: 10px;
+    padding-top: 10px;
+    -moz-padding-after: 10px;
+    -khtml-padding-after: 10px;
+    -webkit-padding-after: 10px;
+    -o-padding-after: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    width: 320px;
+    text-decoration: none;
+    background: none; }
+    header nav > a:active {
+      background: #5c6bc0; }
+    header nav > a:hover {
+      background: #5c6bc0; }
+    header nav > a > span {
+      display: block;
+      color: white;
+      width: 100%;
+      font-size: 1em;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: center; }
+
+footer {
+  background-color: #3949ab;
+  height: 100px;
+  color: #ffffff;
+  text-align: center; }
+  footer p {
+    padding: 30px 0; }
+
+.table {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  width: 100%;
+  color: #c5cae9; }
+  .table-resource {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -moz-margin-start: 0;
+    -khtml-margin-start: 0;
+    -webkit-margin-start: 0;
+    -o-margin-start: 0;
+    margin-left: 0;
+    -moz-margin-end: 0;
+    -khtml-margin-end: 0;
+    -webkit-margin-end: 0;
+    -o-margin-end: 0;
+    margin-right: 0;
+    -moz-margin-before: 5px;
+    -khtml-margin-before: 5px;
+    -webkit-margin-before: 5px;
+    -o-margin-before: 5px;
+    margin-top: 5px;
+    -moz-margin-after: 5px;
+    -khtml-margin-after: 5px;
+    -webkit-margin-after: 5px;
+    -o-margin-after: 5px;
+    margin-bottom: 5px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    border: #9fa8da solid 1px; }
+    .table-resource--title {
+      -moz-padding-start: 5px;
+      -khtml-padding-start: 5px;
+      -webkit-padding-start: 5px;
+      -o-padding-start: 5px;
+      padding-left: 5px;
+      -moz-padding-end: 5px;
+      -khtml-padding-end: 5px;
+      -webkit-padding-end: 5px;
+      -o-padding-end: 5px;
+      padding-right: 5px;
+      -moz-padding-before: 10px;
+      -khtml-padding-before: 10px;
+      -webkit-padding-before: 10px;
+      -o-padding-before: 10px;
+      padding-top: 10px;
+      -moz-padding-after: 10px;
+      -khtml-padding-after: 10px;
+      -webkit-padding-after: 10px;
+      -o-padding-after: 10px;
+      padding-bottom: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-bottom: #9fa8da solid 1px;
+      border-right: #9fa8da solid 1px;
+      border-left: #9fa8da solid 1px;
+      background: #3949ab; }
+    .table-resource--categories {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-direction: row;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: stretch;
+      -moz-box-align: stretch;
+      box-align: stretch;
+      -webkit-align-items: stretch;
+      -moz-align-items: stretch;
+      -ms-align-items: stretch;
+      -o-align-items: stretch;
+      align-items: stretch;
+      -ms-flex-align: stretch;
+      width: 100%;
+      background: #3949ab; }
+    .table-resource--category {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -moz-padding-start: 10px;
+      -khtml-padding-start: 10px;
+      -webkit-padding-start: 10px;
+      -o-padding-start: 10px;
+      padding-left: 10px;
+      -moz-padding-end: 10px;
+      -khtml-padding-end: 10px;
+      -webkit-padding-end: 10px;
+      -o-padding-end: 10px;
+      padding-right: 10px;
+      -moz-padding-before: 10px;
+      -khtml-padding-before: 10px;
+      -webkit-padding-before: 10px;
+      -o-padding-before: 10px;
+      padding-top: 10px;
+      -moz-padding-after: 10px;
+      -khtml-padding-after: 10px;
+      -webkit-padding-after: 10px;
+      -o-padding-after: 10px;
+      padding-bottom: 10px;
+      border-bottom: #9fa8da solid 1px;
+      border-left: #9fa8da solid 1px;
+      font-weight: bold; }
+    .table-resource--values {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: start;
+      -moz-box-align: start;
+      box-align: start;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      -ms-align-items: flex-start;
+      -o-align-items: flex-start;
+      align-items: flex-start;
+      -ms-flex-align: start;
+      width: 100%; }
+    .table-resource--row {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-direction: row;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      width: 100%;
+      background: #5c6bc0; }
+    .table-resource--value {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -moz-padding-start: 0;
+      -khtml-padding-start: 0;
+      -webkit-padding-start: 0;
+      -o-padding-start: 0;
+      padding-left: 0;
+      -moz-padding-end: 0;
+      -khtml-padding-end: 0;
+      -webkit-padding-end: 0;
+      -o-padding-end: 0;
+      padding-right: 0;
+      -moz-padding-before: 10px;
+      -khtml-padding-before: 10px;
+      -webkit-padding-before: 10px;
+      -o-padding-before: 10px;
+      padding-top: 10px;
+      -moz-padding-after: 5px;
+      -khtml-padding-after: 5px;
+      -webkit-padding-after: 5px;
+      -o-padding-after: 5px;
+      padding-bottom: 5px;
+      border-left: #9fa8da solid 1px; }
+
+/*# sourceMappingURL=custom.css.map */

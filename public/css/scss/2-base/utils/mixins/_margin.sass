@@ -1,0 +1,52 @@
+@mixin margin-start($value)
+	-moz-margin-start: $value
+	-khtml-margin-start: $value
+	-webkit-margin-start: $value
+	-o-margin-start: $value
+	margin-left: $value
+
+@mixin margin-end($value)
+	-moz-margin-end: $value
+	-khtml-margin-end: $value
+	-webkit-margin-end: $value
+	-o-margin-end: $value
+	margin-right: $value
+
+@mixin margin-before($value)
+	-moz-margin-before: $value
+	-khtml-margin-before: $value
+	-webkit-margin-before: $value
+	-o-margin-before: $value
+	margin-top: $value
+
+@mixin margin-after($value)
+	-moz-margin-after: $value
+	-khtml-margin-after: $value
+	-webkit-margin-after: $value
+	-o-margin-after: $value
+	margin-bottom: $value
+	
+	
+@mixin margin($v1, $v2:"", $v3:"", $v4:"")
+	@if $v2 == ""
+		@include margin-start($v1)
+		@include margin-end($v1)
+		@include margin-before($v1)
+		@include margin-after($v1)
+	@else
+		@if $v3 == ""
+			@include margin-start($v2)
+			@include margin-end($v2)
+			@include margin-before($v1)
+			@include margin-after($v1)
+		@else
+			@if $v4 == ""
+				@include margin-start($v2)
+				@include margin-end($v2)
+				@include margin-before($v1)
+				@include margin-after($v3)
+			@else
+				@include margin-start($v4)
+				@include margin-end($v2)
+				@include margin-before($v1)
+				@include margin-after($v3)

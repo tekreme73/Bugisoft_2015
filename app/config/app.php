@@ -3,7 +3,7 @@ return array(
     
     'path' => 'app/',
     
-    'debug' => true,
+    'debug' => false,
     
     'begin_dev' => 1449143904,
     

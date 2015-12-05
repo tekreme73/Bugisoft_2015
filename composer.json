@@ -1,10 +1,17 @@
 {
-    "name": "bugisoft/app_name2015",
+    "autoload": {
+        "psr-4": {"Bugisoft\\": "app/Bugisoft"}
+    },
+    "name": "bugisoft/FarCrise",
     "description": "Application created by Bugisoft team for \"Nuit de l'info 2015\" event",
     "require": {
         "php": ">=5.4.0",
-        "twig/twig": "~1.0",
-        "filp/whoops": "~1.1"
+        "twig/twig": "^1.23",
+        "filp/whoops": "~1.1",
+        "tekreme73/frametek-light": "0.1",
+        "slim/slim": "~2.0",
+        "slim/views": "^0.1.3",
+        "swiftmailer/swiftmailer": "@stable"
     },
     "license": "MIT",
     "authors": [
